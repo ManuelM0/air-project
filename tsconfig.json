@@ -1,0 +1,15 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  
+  "compilerOptions": {
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "typescript.showUnused": false,
+    "javascript.showUnused": false,
+    "no-unused-variable": [false, {"ignore-pattern": "^_"}],
+  }
+}
