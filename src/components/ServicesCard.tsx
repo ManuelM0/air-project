@@ -1,5 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import SalaPesi from "../assets/gymcard.jpg";
+import NuotoLibero from "../assets/nuotoliberocard.png";
+import Funzionale from "../assets/functionalcard5.png";
+import Pilates from "../assets/pilatescard.png";
+import Jiujitsu from "../assets/jiujitsucard.png";
+import CorsoNuoto from "../Assets/corsonuotocard.png";
+import GymDolce from "../assets/gymdolcecard.png";
+import AcquaGym from "../assets/acquagymcard.png";
+import HydroBike from "../assets/hydrobikecard.png";
+import CircuitGym from "../Assets/circuitgymcard.png";
 
 function ServicesCard() {
   return (
@@ -12,7 +22,7 @@ function ServicesCard() {
         style={{ userSelect: "none" }}
       >
         <div className="mt-20 w-90 h-100 drop-shadow-2xl rounded-3xl relative bg-sky-200 hover:scale-110 duration-400 flex flex-col">
-          <img src="..\assets\gymcard.jpg" className="rounded-t-3xl"></img>
+          <img src={SalaPesi} className="rounded-t-3xl"></img>
           <div className=" absolute w-50 h-20 border-8 border-white font-bold text-white  z-10 ml-20 mt-20 text-center text-3xl backdrop-blur-sm pt-3">
             SALA PESI
           </div>
@@ -28,10 +38,7 @@ function ServicesCard() {
         </div>
 
         <div className=" mt-20 ml-30 w-90 h-100 drop-shadow-2xl rounded-3xl relative bg-sky-200 hover:scale-110 duration-400 flex flex-col">
-          <img
-            src="src\assets\nuotoliberocard.png"
-            className="rounded-t-3xl bg-cover"
-          ></img>
+          <img src={NuotoLibero} className="rounded-t-3xl bg-cover"></img>
           <div className=" absolute w-55 h-28 border-8 border-white font-bold text-white  z-10 ml-20 mt-15 text-center text-3xl backdrop-blur-sm pt-3">
             NUOTO LIBERO
           </div>
@@ -56,10 +63,7 @@ function ServicesCard() {
         style={{ userSelect: "none" }}
       >
         <div className=" mt-20 w-90 h-100 drop-shadow-2xl rounded-3xl relative bg-sky-200 hover:scale-110 duration-400 flex flex-col">
-          <img
-            src="src\assets\functionalcard5.png"
-            className="rounded-t-3xl bg-cover"
-          ></img>
+          <img src={Funzionale} className="rounded-t-3xl bg-cover"></img>
           <div className=" absolute w-55 h-20 border-8 border-white font-bold text-white  z-10 ml-20 mt-20 text-center text-3xl backdrop-blur-sm pt-3">
             FUNZIONALE
           </div>
@@ -75,10 +79,7 @@ function ServicesCard() {
         </div>
 
         <div className=" mt-20 ml-30 w-90 h-100 drop-shadow-2xl rounded-3xl relative bg-sky-200 hover:scale-110 duration-400 flex flex-col">
-          <img
-            src="src\assets\pilatescard.png"
-            className="rounded-t-3xl bg-cover"
-          ></img>
+          <img src={Pilates} className="rounded-t-3xl bg-cover"></img>
           <div className=" absolute w-55 h-20 border-8 border-white font-bold text-white  z-10 ml-20 mt-20 text-center text-3xl backdrop-blur-sm pt-3">
             PILATES
           </div>
@@ -94,10 +95,7 @@ function ServicesCard() {
         </div>
 
         <div className="mt-20 ml-30 w-90 h-100 drop-shadow-2xl rounded-3xl relative bg-sky-200 hover:scale-110 duration-400 flex flex-col">
-          <img
-            src="src\assets\jiujitsucard.png"
-            className="rounded-t-3xl bg-cover"
-          ></img>
+          <img src={Jiujitsu} className="rounded-t-3xl bg-cover"></img>
           <div className="absolute w-55 h-28 border-8 border-white font-bold text-white  z-10 ml-20 mt-15 text-center text-3xl backdrop-blur-sm pt-3 ">
             JIUJITSU BRASILIANO
           </div>
@@ -136,10 +134,7 @@ function ServicesCard() {
         style={{ userSelect: "none" }}
       >
         <div className="mt-20 w-90 h-100 drop-shadow-2xl rounded-3xl relative bg-sky-200 hover:scale-110 duration-400 flex flex-col">
-          <img
-            src="src\assets\corsonuotocard.png"
-            className="rounded-t-3xl"
-          ></img>
+          <img src={CorsoNuoto} className="rounded-t-3xl"></img>
           <div className=" absolute w-50 h-28 border-8 border-white font-bold text-white  z-10 ml-20 mt-15 text-center text-3xl backdrop-blur-sm pt-3">
             CORSO DI NUOTO
           </div>
@@ -156,10 +151,7 @@ function ServicesCard() {
           </div>
         </div>
         <div className="mt-20 w-90 h-100 drop-shadow-2xl rounded-3xl relative bg-sky-200 hover:scale-110 duration-400 flex flex-col">
-          <img
-            src="src\assets\corsonuotocard.png"
-            className="rounded-t-3xl"
-          ></img>
+          <img src={CorsoNuoto} className="rounded-t-3xl"></img>
           <div className=" absolute w-50 h-28 border-8 border-white font-bold text-white  z-10 ml-20 mt-15 text-center text-3xl backdrop-blur-sm pt-3">
             NUOTO BABY
           </div>
@@ -175,10 +167,7 @@ function ServicesCard() {
           </div>
         </div>
         <div className="mt-20 w-90 h-100 drop-shadow-2xl rounded-3xl relative bg-sky-200 hover:scale-110 duration-400 flex flex-col">
-          <img
-            src="src\assets\gymdolcecard.png"
-            className="rounded-t-3xl"
-          ></img>
+          <img src={GymDolce} className="rounded-t-3xl"></img>
           <div className=" absolute w-50 h-20 border-8 border-white font-bold text-white  z-10 ml-20 mt-20 text-center text-3xl backdrop-blur-sm pt-3">
             GYM DOLCE
           </div>
@@ -194,10 +183,7 @@ function ServicesCard() {
         </div>
 
         <div className=" mt-20  w-90 h-100 drop-shadow-2xl rounded-3xl relative bg-sky-200 hover:scale-110 duration-400 flex flex-col">
-          <img
-            src="src\assets\acquagymcard.png"
-            className="rounded-t-3xl bg-cover"
-          ></img>
+          <img src={AcquaGym} className="rounded-t-3xl bg-cover"></img>
           <div className=" absolute w-55 h-20 border-8 border-white font-bold text-white  z-10 ml-20 mt-20 text-center text-3xl backdrop-blur-sm pt-3">
             ACQUAGYM
           </div>
@@ -214,10 +200,7 @@ function ServicesCard() {
         </div>
 
         <div className=" mt-20 w-90 h-100 drop-shadow-2xl rounded-3xl relative bg-sky-200 hover:scale-110 duration-400 flex flex-col">
-          <img
-            src="src\assets\hydrobikecard.png"
-            className="rounded-t-3xl bg-cover"
-          ></img>
+          <img src={HydroBike} className="rounded-t-3xl bg-cover"></img>
           <div className=" absolute w-55 h-20 border-8 border-white font-bold text-white  z-10 ml-20 mt-20 text-center text-3xl backdrop-blur-sm pt-3">
             HYDROBIKE
           </div>
@@ -233,10 +216,7 @@ function ServicesCard() {
         </div>
 
         <div className=" mt-20 w-90 h-100 drop-shadow-2xl rounded-3xl relative bg-sky-200 hover:scale-110 duration-400 flex flex-col">
-          <img
-            src="src\assets\circuitgymcard.png"
-            className="rounded-t-3xl bg-cover"
-          ></img>
+          <img src={CircuitGym} className="rounded-t-3xl bg-cover"></img>
           <div className="absolute w-55 h-20 border-8 border-white font-bold text-white  z-10 ml-20 mt-20 text-center text-3xl backdrop-blur-sm pt-3 ">
             CIRCUIT GYM
           </div>
