@@ -14,7 +14,7 @@ function ServicesCard() {
         <div className="mt-20 w-90 h-100 drop-shadow-2xl rounded-3xl relative bg-sky-200 hover:scale-110 duration-400 flex flex-col">
           <img src=".\assets\gymcard.jpg" className="rounded-t-3xl"></img>
           <div className=" absolute w-50 h-20 border-8 border-white font-bold text-white  z-10 ml-20 mt-20 text-center text-3xl backdrop-blur-sm pt-3">
-            SALAAAAA PESI
+            SALA PESI
           </div>
           <h1 className="text-left bg-white pl-5 font-semibold pt-2">
             Sala Pesi
