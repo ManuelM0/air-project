@@ -5,8 +5,10 @@ import { basename } from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/air-project",
   plugins: [react(),
-    tailwindcss(),
+    tailwindcss()
   ],
-  base: "/air-project"
+
 })
+

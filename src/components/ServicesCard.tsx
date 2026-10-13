@@ -151,7 +151,7 @@ function ServicesCard() {
             per imparare a nuotare o perfezionare la tecnica in totale
             sicurezza.
             <button className="relative rounded-3xl border-2 text-2xl w-40 h-18 mb-5 mt-8 cursor-pointer font-semibold hover:bg-black hover:text-white -black duration-600">
-              <Link to="/corsonuoto">Orari e Prezzi</Link>
+              <Link to="/air-project/corsonuoto">Orari e Prezzi</Link>
             </button>
           </div>
         </div>

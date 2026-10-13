@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import logo from "../assets/logo_no_bg.png";
 
 function Header() {
   const [today, setDate] = React.useState(new Date());
@@ -42,15 +43,10 @@ function Header() {
         <div className="navbar-container " style={{ userSelect: "none" }}>
           <ul className="flex items-center gap-10 p-5 md:flex-row bg-white font-bold w-screen shadow font-[lato] fixed -ml-4 shrink basis-auto justify-baseline z-30">
             <li className="hover:scale-110 transition-all duration-300  relative cursor-pointer ml-2">
-              <img
-                src="src\assets\logo no bg.png"
-                height={100}
-                width={100}
-                object-fit:fill
-              />
+              <img src={logo} height={100} width={100} object-fit:fill />
             </li>
             <Link
-              to="/"
+              to="/air-project"
               className=" -m-5 cursor-pointer w-20 h-21 group hover:bg-sky-100 duration-800 "
               style={{
                 display: "flex",
@@ -63,7 +59,7 @@ function Header() {
               </li>
             </Link>
             <Link
-              to="/servizi"
+              to="/air-project/servizi"
               className=" -m-5 cursor-pointer  w-32 h-21 group hover:bg-sky-100 duration-800 "
               style={{
                 display: "flex",
@@ -75,7 +71,7 @@ function Header() {
                 Servizi - Prezzi
               </li>
             </Link>
-            <li
+            {/* <li
               className="-m-5 w-23 h-12 group absolute ml-[82%] align-middle text-center"
               style={{
                 display: "flex",
@@ -83,9 +79,8 @@ function Header() {
                 flexDirection: "row",
               }}
             >
-              {/* {today.toUTCString().split("2026")[0]} */}
               {tempo.toLocaleDateString("it-IT", options)} {Hours}:{Minutes}
-            </li>
+            </li> */}
 
             <li
               className="apertura -m-5 w-23 h-12 group rounded-3xl border-2 relative ml-[70%] flex align-middle text-center {aperturaColor}"
@@ -99,7 +94,7 @@ function Header() {
             </li>
 
             <Link
-              to="/contatti"
+              to="/air-project/contatti"
               className=" -m-5 cursor-pointer w-23 h-12 group rounded-3xl border-2 hover:bg-black hover:text-white hover:border-black relative ml-auto mr-0.5 duration-800"
               style={{
                 display: "flex",

@@ -8,8 +8,12 @@
   "compilerOptions": {
     "noUnusedLocals": false,
     "noUnusedParameters": false,
-    "typescript.showUnused": false,
-    "javascript.showUnused": false,
+    "noImplicitAny": false,
+    // "typescript.showUnused": false,
+    // "javascript.showUnused": false,
+    "noEmit": false,
+    "noEmitOnError": false,
+    "strictNullChecks": false,
     "no-unused-variable": [false, {"ignore-pattern": "^_"}],
   }
 }
